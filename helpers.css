@@ -1,0 +1,10 @@
+.spacer50 {
+    height: 50px;
+    width: 100%;
+}
+
+.spacer100 {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(25,26,29,255);
+}
