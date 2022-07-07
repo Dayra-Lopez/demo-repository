@@ -1,0 +1,120 @@
+/* Header */
+.head-navbar-wrapper {
+    height: 120px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 1fr;
+}
+
+/* left column */
+
+.head-navbar-wrapper > .left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.head-navbar-wrapper > .left > .codepen-logo {
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+}
+
+.head-navbar-wrapper > .left > .codepen-logo img {
+    width: 290px;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+/* center column */
+.head-navbar-wrapper > .center {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    font-size: 1.8em;
+}
+
+.head-navbar-wrapper > .center > .explore-txt {
+    color: rgba(238,222,126,255);
+}
+
+.head-navbar-wrapper > .center > .explore-txt h1 {
+    margin: 0px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.head-navbar-wrapper > .center > .links-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.head-navbar-wrapper > .center > .links-nav > .nav-link {
+    padding: 5px;
+}
+
+.head-navbar-wrapper > .center > .links-nav > .nav-link > .nav-link-spark a {
+    color: grey;
+    padding-left: 15px;
+}
+
+.head-navbar-wrapper > .center > .links-nav > .nav-link a{
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+}
+
+.head-navbar-wrapper > .center > .links-nav > .nav-link a:hover {
+    color: rgba(238,222,126,255)
+}
+
+/* right column */
+.head-navbar-wrapper > .right {
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.8em;
+}
+
+.head-navbar-wrapper > .right > .create-btn i {
+    color: rgba(75,206,121,255);
+    font-size: 1.3em;
+}
+
+.create-btn {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.search-btn {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.sign-up-btn {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
