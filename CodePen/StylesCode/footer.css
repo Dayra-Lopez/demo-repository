@@ -1,0 +1,24 @@
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(54,56,63,255);
+}
+
+.footer-wrapper > .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(103,103,103,255);
+    padding: 20px;
+}
+
+.footer-wrapper > .footer a {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-wrapper > .footer a:hover {
+    color: rgba(238,222,126,255)   
+}
